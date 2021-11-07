@@ -11,6 +11,7 @@ users = [
 headers = {
     'User-Agent' : random.choice(users)
 }
+os.system("clear")
 print("Channel: @Cyber_Puffin")
 print("Developer: @lamer112311")
 url = input("Ссылка: ")
