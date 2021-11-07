@@ -11,6 +11,8 @@ users = [
 headers = {
     'User-Agent' : random.choice(users)
 }
+print("Channel: @Cyber_Puffin")
+print("Developer: @lamer112311")
 url = input("Ссылка: ")
 threads = int(input("Потоки (~800 лучше): "))
 
