@@ -31,6 +31,6 @@ def send():
         print("head...")
 
 if __name__ == '__main__':
-    for i in range (800):
+    for i in range (threads):
         thr = Thread(target=send)
         thr.start()
